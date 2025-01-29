@@ -4,13 +4,47 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #000;
+    background-color: #878787;
     color: orange;
-    font-size: 28px;;
+    height: 100vh;
+}
+button{
+    background-color: #fff;
+    width: 91.22px;
+    height: 33px;
+    border-radius: 16.5px 0px 0px 0px;
+    }
+a{
+    text-decoration: none;
+}
+ul{
+    display: flex;
+    gap: 19px;
+    list-style: none;
+}
+.dflex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-wrapper{
+    background-image: url(/assets/d31bcd8f1e43572e36d821de1c277580.png);
+    height: 840px;
+    background-size: cover;
+    
+}
+header{
+    height: 68px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .logo{
-    width: 300px;
-    height: 200px;
-    background-color: #ccc;
-    padding: 50px;
+    color: #fff;
 }
+header nav{
+    gap:60px;
+}
+
